@@ -127,5 +127,4 @@ please cite:
 }
 ```
 
-Repository: https://github.com/<user>/orbital-vs-terrestrial-datacentre-lcue
-Repository DOI: https://doi.org/10.5281/zenodo.XXXXXXX  *(to be assigned)*
+Repository: https://github.com/<user>/LUCE
