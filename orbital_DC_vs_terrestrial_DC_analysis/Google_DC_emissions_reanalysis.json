@@ -1,0 +1,108 @@
+{
+    "Google": {
+        "years": [
+            2019,
+            2020,
+            2021,
+            2022
+        ],
+        "PUE": [
+            1.1,
+            1.1,
+            1.1,
+            1.1
+        ],
+        "scope1_emissions": [
+            66700,
+            38700,
+            45100,
+            91200
+        ],
+        "scope2_emissions_location_based": [
+            5116900,
+            5865100,
+            6576200,
+            8045400
+        ],
+        "scope3_emissions": [
+            11667000,
+            9372000,
+            9503000,
+            7600000
+        ],
+        "scope3_emisssion_capial_goods": [
+            2157000,
+            1809000,
+            1676000,
+            2096000
+        ],
+        "scope3_emisssion_upstream_transporaion": [
+            459000,
+            504000,
+            484000,
+            556000
+        ],
+        "purchased_electricity": [
+            12226200,
+            15125700,
+            18238400,
+            21685300
+        ],
+        "fuel": [
+            366400,
+            181800,
+            205200,
+            374800
+        ],
+        "Es1_to_Es2_ratio_annual": [
+            0.03,
+            0.01,
+            0.01,
+            0.02
+        ],
+        "Es1_to_Es2_ratio_average": 0.02,
+        "scope1_carbon_intensity": [
+            182.0,
+            213.0,
+            220.0,
+            243.0
+        ],
+        "scope1_carbon_intensity_average": 214.0,
+        "scope2_carbon_intensity": [
+            419.0,
+            388.0,
+            361.0,
+            371.0
+        ],
+        "scope2_carbon_intensity_average": 381.0,
+        "scope3_emisssions_onetime": [
+            2616000,
+            2313000,
+            2160000,
+            2652000
+        ],
+        "scope3_carbon_intensity": 271.0,
+        "Es3_onetime_to_E2_ratio_annual": [
+            0.79,
+            0.56,
+            0.44,
+            0.45
+        ],
+        "Es3_onetime_to_E2_ratio_average": 0.53,
+        "scope3_emisssions_recurrent": [
+            9051000,
+            7059000,
+            7343000,
+            4948000
+        ],
+        "Es3_recurrent_to_E2_ratio_annual": [
+            2.73,
+            1.72,
+            1.49,
+            0.84
+        ],
+        "Es3_recurrent_to_E2_ratio_average": 1.56,
+        "PUE_average": 1.1,
+        "Lifecycle_CUE": 1046.0
+    }
+}

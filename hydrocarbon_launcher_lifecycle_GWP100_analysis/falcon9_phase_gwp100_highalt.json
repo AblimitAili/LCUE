@@ -1,0 +1,67 @@
+{
+  "scenario": "high-altitude CFs (CC*)",
+  "launcher": "Falcon 9 (kerosene/LOX), Starlink",
+  "inputs": {
+    "dry_mass_booster_Mg": 22.0,
+    "dry_mass_second_Mg": 4.5,
+    "propellant_Mg": 488.0,
+    "reuses": 10,
+    "launches": 105,
+    "O_F": 2.35,
+    "downrange_km": 650.0,
+    "rp1_production_kg_per_kg": 1.0,
+    "lox_production_kg_per_kg": 8.1
+  },
+  "launch_GWP_kg_per_kg_highalt": 12991.66238,
+  "launch_GWP_kg_per_kg_highalt_no_H2O": 12792.23979,
+  "reentry_Gg_per_launch": 121.441,
+  "phase_order": [
+    "Production",
+    "Propellant",
+    "Assembly",
+    "LaunchCampaign",
+    "Launch",
+    "Recovery",
+    "Maintenance",
+    "Reentry"
+  ],
+  "per_launch_phase_Gg": {
+    "Production": 0.677,
+    "Propellant": 2.919,
+    "Assembly": 0.39,
+    "LaunchCampaign": 0.39,
+    "Launch": 6339.931,
+    "Recovery": 0.39,
+    "Maintenance": 0.246,
+    "Reentry": 121.441
+  },
+  "per_launch_phase_share_pct": {
+    "Production": 0.01,
+    "Propellant": 0.05,
+    "Assembly": 0.01,
+    "LaunchCampaign": 0.01,
+    "Launch": 98.04,
+    "Recovery": 0.01,
+    "Maintenance": 0.0,
+    "Reentry": 1.88
+  },
+  "total_per_launch_Gg": 6466.384,
+  "fleet_Tg": 678.97,
+  "bc_band": {
+    "EI_g_per_kg": [
+      10,
+      20,
+      30
+    ],
+    "high_altitude_kg_per_kg": [
+      6596.323,
+      12991.662,
+      19387.002
+    ],
+    "total_per_launch_Gg": [
+      3345.459,
+      6466.384,
+      9587.31
+    ]
+  }
+}

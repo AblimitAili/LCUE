@@ -1,0 +1,64 @@
+{
+  "note": "Launch-phase GWP100 per species, g CO2eq per kg propellant. 'aviation' = both bands x aviation CF; 'high_altitude' = troposphere x aviation CF + stratosphere x high-alt CF. Altitude burn fractions (41.1% / 58.9%) applied.",
+  "methane": {
+    "aviation": {
+      "BC": 2519.37,
+      "CH4": 750.8,
+      "CO": 310.96,
+      "H2": 32.1,
+      "CO2": 545.93,
+      "H2O": 31.11,
+      "NOx": 114.0,
+      "OHx": 0.0
+    },
+    "high_altitude": {
+      "BC": 3000427.44,
+      "CH4": 750.8,
+      "CO": 310.96,
+      "H2": 32.1,
+      "CO2": 622.42,
+      "H2O": 322263.19,
+      "NOx": 46.85,
+      "OHx": 0.0
+    }
+  },
+  "kerosene": {
+    "aviation": {
+      "BC": 10739.93,
+      "CH4": 0.0,
+      "CO": 685.29,
+      "H2": 70.74,
+      "CO2": 706.91,
+      "H2O": 19.28,
+      "NOx": 114.0,
+      "OHx": 0.0
+    },
+    "high_altitude": {
+      "BC": 12790636.18,
+      "CH4": 0.0,
+      "CO": 685.29,
+      "H2": 70.74,
+      "CO2": 800.73,
+      "H2O": 199422.59,
+      "NOx": 46.85,
+      "OHx": 0.0
+    }
+  },
+  "kerosene_bc_sweep": {
+    "EI_g_per_kg": [
+      10,
+      20,
+      30
+    ],
+    "aviation_kg_per_kg": [
+      6.946,
+      12.336,
+      17.726
+    ],
+    "high_altitude_kg_per_kg": [
+      6596.323,
+      12991.662,
+      19387.002
+    ]
+  }
+}

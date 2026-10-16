@@ -1,0 +1,3 @@
+# Python 3.9+ (uses only the standard library plus numpy and matplotlib)
+numpy>=1.24
+matplotlib>=3.6

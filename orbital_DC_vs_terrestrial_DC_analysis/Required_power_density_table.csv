@@ -1,0 +1,4 @@
+Launcher,Fuel,Launch GWP av (Gg),Launch GWP high-alt (Gg),Req. power density av (W/kg),Req. power density high-alt (W/kg),vs current av (x),vs current high-alt (x)
+Falcon 9 (Kerosene),RP-1/LOX,11.032,6466.38,30.4,17845.6,2.35,1374.5
+"XXL-RLV (exp. core, LH2)",LH2,13.713,733.18,43.6,2331.7,3.36,179.6
+LCH4 XXL-RLV exp. core,LCH4,29.418,5744.07,97.4,19022.6,7.50,1465.2

@@ -1,0 +1,108 @@
+{
+  "scenario": "aviation CFs (CC)",
+  "fleet_total_Tg": 6.016,
+  "table5_Gg": {
+    "L-RVL": 10.36,
+    "XXL": 27.74,
+    "XXL-exp": 29.6
+  },
+  "phase_order": [
+    "Production",
+    "Propellant",
+    "Assembly",
+    "LaunchCampaign",
+    "Launch",
+    "Recovery",
+    "Maintenance",
+    "Reentry"
+  ],
+  "phase_driver": {
+    "Launch": "mp",
+    "Propellant": "mp",
+    "Production": "amort",
+    "Recovery": "dist",
+    "Maintenance": "rec",
+    "LaunchCampaign": "mp",
+    "Assembly": "mp",
+    "Reentry": "n"
+  },
+  "coefficients_Gg_per_driver_unit": {
+    "Production": 0.101,
+    "Propellant": 0.008,
+    "Assembly": 0.0008,
+    "LaunchCampaign": 0.0008,
+    "Launch": 0.0043,
+    "Recovery": 0.0006,
+    "Maintenance": 0.0112,
+    "Reentry": 0.0
+  },
+  "per_launcher_phase_Gg": {
+    "L-RVL": {
+      "Production": 0.841,
+      "Propellant": 5.048,
+      "Assembly": 0.534,
+      "LaunchCampaign": 0.534,
+      "Launch": 2.711,
+      "Recovery": 0.406,
+      "Maintenance": 0.342,
+      "Reentry": 0.0
+    },
+    "XXL": {
+      "Production": 1.251,
+      "Propellant": 13.381,
+      "Assembly": 1.414,
+      "LaunchCampaign": 1.414,
+      "Launch": 7.186,
+      "Recovery": 2.136,
+      "Maintenance": 1.026,
+      "Reentry": 0.0
+    },
+    "XXL-exp": {
+      "Production": 4.121,
+      "Propellant": 13.381,
+      "Assembly": 1.414,
+      "LaunchCampaign": 1.414,
+      "Launch": 7.186,
+      "Recovery": 1.217,
+      "Maintenance": 0.684,
+      "Reentry": 0.0
+    }
+  },
+  "per_launcher_phase_share_pct": {
+    "L-RVL": {
+      "Production": 8.08,
+      "Propellant": 48.47,
+      "Assembly": 5.12,
+      "LaunchCampaign": 5.12,
+      "Launch": 26.03,
+      "Recovery": 3.9,
+      "Maintenance": 3.28,
+      "Reentry": 0.0
+    },
+    "XXL": {
+      "Production": 4.5,
+      "Propellant": 48.12,
+      "Assembly": 5.09,
+      "LaunchCampaign": 5.09,
+      "Launch": 25.84,
+      "Recovery": 7.68,
+      "Maintenance": 3.69,
+      "Reentry": 0.0
+    },
+    "XXL-exp": {
+      "Production": 14.01,
+      "Propellant": 45.49,
+      "Assembly": 4.81,
+      "LaunchCampaign": 4.81,
+      "Launch": 24.43,
+      "Recovery": 4.14,
+      "Maintenance": 2.33,
+      "Reentry": 0.0
+    }
+  },
+  "per_launcher_sum_Gg": {
+    "L-RVL": 10.415,
+    "XXL": 27.809,
+    "XXL-exp": 29.418
+  }
+}

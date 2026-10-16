@@ -1,0 +1,37 @@
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Non-code artifacts (keep the repo to code + data + figures) ---
+*.docx
+*.zip
+backup_without_black_carbon_band/
+
+# --- Figures ---
+# Figures are versioned as SVG only. PDFs (manuscript + derived figure PDFs)
+# are excluded; remove this line if you later want to version PDF figures.
+*.pdf

@@ -1,0 +1,17 @@
+{
+    "Orbital_DC_StarlinkBased": {
+        "N_servers_perSat": 6,
+        "PUE": 1.1,
+        "scope2_carbon_intensity": 0,
+        "scope3_carbon_intensity": 0.271,
+        "Es2_energy": 61027.4,
+        "satellite_mass_kg": 536.6,
+        "total_solar_power_W": 6966.6,
+        "power_per_kg_in_W_kg": 13.0,
+        "Es3_onetime_energy": {
+            "capital_server": 28084.7,
+            "capital_satellite": 32572.7,
+            "upstream_transport": 338087.4
+        }
+    }
+}

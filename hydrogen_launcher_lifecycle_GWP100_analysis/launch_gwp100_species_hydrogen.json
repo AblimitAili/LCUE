@@ -1,0 +1,51 @@
+{
+  "note": "Launch-phase GWP100 per species, g CO2eq per kg propellant. 'aviation' = both bands x aviation CF; 'high_altitude' = troposphere x aviation CF + stratosphere x high-alt CF. Altitude burn fractions (41.1% / 58.9%) applied.",
+  "Prometheus-H": {
+    "total_aviation_kg_per_kg": 0.4648,
+    "total_high_altitude_kg_per_kg": 712.449,
+    "aviation": {
+      "BC": 0.0,
+      "CH4": 0.0,
+      "CO": 0.0,
+      "H2": 281.23,
+      "CO2": 0.0,
+      "H2O": 69.6,
+      "NOx": 114.0,
+      "OHx": 0.0
+    },
+    "high_altitude": {
+      "BC": 0.0,
+      "CH4": 0.0,
+      "CO": 0.0,
+      "H2": 281.23,
+      "CO2": 0.0,
+      "H2O": 712120.78,
+      "NOx": 46.85,
+      "OHx": 0.0
+    }
+  },
+  "SLME": {
+    "total_aviation_kg_per_kg": 0.3218,
+    "total_high_altitude_kg_per_kg": 709.007,
+    "aviation": {
+      "BC": 0.0,
+      "CH4": 0.0,
+      "CO": 0.0,
+      "H2": 142.26,
+      "CO2": 0.0,
+      "H2O": 65.58,
+      "NOx": 114.0,
+      "OHx": 0.0
+    },
+    "high_altitude": {
+      "BC": 0.0,
+      "CH4": 0.0,
+      "CO": 0.0,
+      "H2": 142.26,
+      "CO2": 0.0,
+      "H2O": 708817.82,
+      "NOx": 46.85,
+      "OHx": 0.0
+    }
+  }
+}

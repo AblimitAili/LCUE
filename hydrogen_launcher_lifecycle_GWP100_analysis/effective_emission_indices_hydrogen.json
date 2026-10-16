@@ -1,0 +1,47 @@
+{
+  "note": "Effective emission indices after post-combustion, g pollutant per kg propellant burned in the layer. 'aviation' = tropospheric layer (4% survival); 'high_altitude' = stratospheric layer (75.4% survival). No altitude burn fraction applied.",
+  "Prometheus-H": {
+    "aviation": {
+      "BC": 0.0,
+      "CH4": 0.0,
+      "CO": 0.0,
+      "H2": 1.9082,
+      "CO2": 0.0,
+      "H2O": 1340.5798,
+      "NOx": 1.0,
+      "OHx": 19.16
+    },
+    "high_altitude": {
+      "BC": 0.0,
+      "CH4": 0.0,
+      "CO": 0.0,
+      "H2": 35.9703,
+      "CO2": 0.0,
+      "H2O": 1034.0211,
+      "NOx": 1.0,
+      "OHx": 19.16
+    }
+  },
+  "SLME": {
+    "aviation": {
+      "BC": 0.0,
+      "CH4": 0.0,
+      "CO": 0.0,
+      "H2": 0.9653,
+      "CO2": 0.0,
+      "H2O": 1184.3091,
+      "NOx": 1.0,
+      "OHx": 0.018
+    },
+    "high_altitude": {
+      "BC": 0.0,
+      "CH4": 0.0,
+      "CO": 0.0,
+      "H2": 18.1963,
+      "CO2": 0.0,
+      "H2O": 1029.2305,
+      "NOx": 1.0,
+      "OHx": 0.018
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "note": "Effective emission indices after post-combustion, g pollutant per kg propellant burned in the layer. 'aviation' = tropospheric layer (4% survival); 'high_altitude' = stratospheric layer (75.4% survival). No altitude burn fraction applied.",
+  "methane": {
+    "aviation": {
+      "BC": 0.1877,
+      "CH4": 2.1882,
+      "CO": 6.752,
+      "H2": 0.2178,
+      "CO2": 727.9851,
+      "H2O": 590.8158,
+      "NOx": 1.0,
+      "OHx": 17.816
+    },
+    "high_altitude": {
+      "BC": 3.5375,
+      "CH4": 41.2483,
+      "CO": 127.2752,
+      "H2": 4.1061,
+      "CO2": 418.8937,
+      "H2O": 467.9366,
+      "NOx": 1.0,
+      "OHx": 17.816
+    }
+  },
+  "kerosene": {
+    "aviation": {
+      "BC": 0.8,
+      "CH4": 0.0,
+      "CO": 14.88,
+      "H2": 0.48,
+      "CO2": 983.5886,
+      "H2O": 366.68,
+      "NOx": 1.0,
+      "OHx": 0.0
+    },
+    "high_altitude": {
+      "BC": 15.08,
+      "CH4": 0.0,
+      "CO": 280.488,
+      "H2": 9.048,
+      "CO2": 513.8446,
+      "H2O": 289.568,
+      "NOx": 1.0,
+      "OHx": 0.0
+    }
+  }
+}

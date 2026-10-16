@@ -1,0 +1,33 @@
+{
+    "current_power_density_W_per_kg": 12.983,
+    "break_even_lifespan_years": 4.0,
+    "launchers": [
+        {
+            "name": "falcon9",
+            "label": "Falcon 9 (Kerosene)",
+            "fuel": "RP-1/LOX",
+            "launch_gwp_av_Gg": 11.032,
+            "launch_gwp_highalt_Gg": 6466.384,
+            "required_power_density_av_W_per_kg": 30.446,
+            "required_power_density_highalt_W_per_kg": 17845.571
+        },
+        {
+            "name": "h2_xxlrlv_exp",
+            "label": "XXL-RLV (exp. core, LH2)",
+            "fuel": "LH2",
+            "launch_gwp_av_Gg": 13.713,
+            "launch_gwp_highalt_Gg": 733.18,
+            "required_power_density_av_W_per_kg": 43.611,
+            "required_power_density_highalt_W_per_kg": 2331.716
+        },
+        {
+            "name": "ch4_xxl_exp",
+            "label": "LCH4 XXL-RLV exp. core",
+            "fuel": "LCH4",
+            "launch_gwp_av_Gg": 29.418,
+            "launch_gwp_highalt_Gg": 5744.069,
+            "required_power_density_av_W_per_kg": 97.423,
+            "required_power_density_highalt_W_per_kg": 19022.599
+        }
+    ]
+}
